@@ -1,8 +1,205 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<section class="gw-hero">
+    <div class="gw-dawn-overlay" aria-hidden="true"></div> <div class="gw-stars" aria-hidden="true"></div>
+
+    <div class="container">
+        <div class="gw-hero-content">
+            <p class="gw-eyebrow">
+                Welcome to Grover Wellness
+            </p>
+
+            <h1>
+                Every sunrise is
+                <span>a new beginning.</span>
+            </h1>
+
+            <p class="gw-lead">
+                A comfortable place to explore better health, greater
+                confidence, and new possibilities for your future.
+            </p>
+
+            <div class="gw-hero-welcome">
+                <p class="gw-hero-thank-you">
+                    Thank you for giving me a few moments of your time.
+                </p>
+
+                <p>
+                    Whatever brought you here today, I hope you feel welcomed,
+                    respected, and free to explore at your own pace.
+                </p>
+
+                <p class="gw-hero-welcome-word">
+                    Come on in.
+                </p>
+
+                <a class="gw-button gw-button-primary gw-button-enter"
+                   href="#welcome">
+                    Begin Your Visit
+                    <span aria-hidden="true">↓</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <a class="gw-scroll-cue"
+       href="#welcome"
+       aria-label="Scroll to the welcome section">
+        <span>Scroll to begin</span>
+        <span class="gw-scroll-arrow" aria-hidden="true">↓</span>
+    </a>
+
+</section>
+
+<section id="welcome" class="gw-intro">
+    <div class="container">
+        <div class="gw-intro-grid">
+            <div class="gw-intro-heading">
+                <p class="gw-eyebrow gw-eyebrow-dark"> Welcome </p>
+
+                <h2>
+                    You came here because something made you start looking.
+                </h2>
+            </div>
+
+            <div class="gw-intro-copy">
+                <p>
+                    Maybe you are looking for better health. Maybe you are
+                    exploring a way to create additional income. Or perhaps
+                    you are simply wondering whether a different path is
+                    possible.
+                </p>
+
+                <p>
+                    Whatever brought you here, I am glad you came.
+                </p>
+
+                <p>
+                    Grover Wellness was created as a place where you can learn,
+                    ask questions, and consider your options without pressure,
+                    exaggerated promises, or hype.
+                </p>
+
+                <p class="gw-intro-emphasis">
+                    Take your time. Look around. Decide what feels right for you.
+                </p>
+
+                <a class="gw-text-link" href="#paths">
+                    Explore your options
+                    <span aria-hidden="true">↓</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section id="paths" class="gw-paths">
+    <div class="container">
+        <div class="gw-section-heading">
+            <p class="gw-eyebrow gw-eyebrow-dark"> What brought you here today? </p>
+
+            <h2>
+                Choose the path you would like to explore.
+            </h2>
+
+            <p class="gw-section-intro">
+                There is no pressure to make a decision. Begin with the subject
+                that matters most to you right now.
+            </p>
+        </div>
+
+        <div class="gw-path-grid">
+            <article id="health" class="gw-card">
+                <span class="gw-card-number" aria-hidden="true">01</span>
+
+                <p class="gw-card-kicker">
+                    Your health journey
+                </p>
+
+                <h3>
+                    I am looking for better health.
+                </h3>
+
+                <p>
+                    Better health is not about perfection. It begins with
+                    learning, asking thoughtful questions, and taking one
+                    manageable step at a time.
+                </p>
+
+                <a asp-controller="Home"
+                   asp-action="Health">
+                    Explore the health path
+                    <span aria-hidden="true">→</span>
+                </a>
+            </article>
+
+            <article id="opportunity" class="gw-card gw-card-dark">
+                <span class="gw-card-number" aria-hidden="true">02</span>
+
+                <p class="gw-card-kicker">
+                    Your financial journey
+                </p>
+
+                <h3>
+                    I am exploring additional income.
+                </h3>
+
+                <p>
+                    A new opportunity should fit your life, your values, and
+                    your goals. You deserve clear information before deciding
+                    whether it is right for you.
+                </p>
+
+                <a href="#contact">
+                    Explore the opportunity
+                    <span aria-hidden="true">→</span>
+                </a>
+            </article>
+        </div>
+    </div>
+
+</section>
+
+<section class="gw-connection">
+    <div class="container">
+        <div class="gw-connection-content">
+            <p class="gw-eyebrow"> The heart of Grover Wellness </p>
+
+            <blockquote>
+                Connection is the beginning of every relationship.
+            </blockquote>
+
+            <p>
+                Before products, before opportunities, and before decisions,
+                there should be a genuine conversation.
+            </p>
+        </div>
+    </div>
+
+</section>
+
+<section class="gw-promise">
+    <div class="container">
+        <div class="gw-promise-panel">
+            <p class="gw-promise-mark" aria-hidden="true">✦</p>
+
+            <p class="gw-eyebrow">
+                My promise to you
+            </p>
+
+            <blockquote>
+                “My goal is not to convince you. It is to help you understand
+                your options, make a confident decision, and support you if
+                you choose to move forward.”
+            </blockquote>
+
+            <p class="gw-promise-signature">
+                — Michael Grover
+            </p>
+        </div>
+    </div>
+
+</section>
