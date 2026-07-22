@@ -26,4 +26,14 @@ public class HomeController : Controller
     {
         return View();
     }
+
+    public IActionResult Possibilities()
+    {
+        return View();
+    }
+
+    public IActionResult NextChapter()
+    {
+        return View();
+    }
 }
