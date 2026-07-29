@@ -32,6 +32,11 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult Wealth()
+    {
+        return View();
+    }
+
     public IActionResult NextChapter()
     {
         return View();
